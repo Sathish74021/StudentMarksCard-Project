@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .container h2 {
+	text-align: center;
+	background-color: red;
+}
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    align-items: center;
+  }
+</style>
+</head>
+<nav> <img alt="" src="final-logo2.jpg" align="middle" height="110" width="1350" > </nav>
+<body>
+<div class="container">
+<h2 id="roll">Give Roll Number to Delete Student Details</h2>
+<form action="deletebyRollNo" method="post">
+    <label for="number" class="roll1">Roll Number</label>
+    <input type="number" id="number" name="rollno" class="roll2"> <br> <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+</form></div>
+</body>
+</html>
